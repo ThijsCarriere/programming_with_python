@@ -1,0 +1,326 @@
+---
+title: "Programming with Python 2022"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: scroll
+---
+
+# Intro {.sidebar}
+
+This dashboard covers the course materials for the course [**S17 - Data Science: Programming with Python**](https://utrechtsummerschool.nl/courses/social-sciences/data-science-programming-with-python). 
+<br> <br>
+
+---
+
+Course leader: [dr. Anastasia Giachanou](http://giachanou.com/) <br><br>
+Instructors: 
+
+ - [dr. Anastasia Giachanou](http://giachanou.com/)
+ - [dr. Anna-Lena Lamprecht](https://www.uu.nl/staff/ALLamprecht)
+
+<br>
+Study load: 1.5 ECTS <br>
+Location of Start: [Koningsberger building - Pangea hall](https://www.uu.nl/en/victor-j-koningsberger-building)
+
+---
+# Quick Overview
+
+## Column 1
+
+### Outline
+Programming is the process of designing and building an executable computer program for accomplishing a specific computational task. The course will introduce you to programming with Python, which is currently one of the most popular programming languages in (data) science. After familiarization with the basics (input and output, variables, data types, data structures, conditional branching, loops, functions, etc.) the course will address specific data science topics, such as statistical analyses with the pandas package and data visualization with matplotlib.
+
+Broadly, the following topics are discussed over the 5 days:
+
+1.  Getting started, the programming environment, editing and running Python programs, input and output, variables, arithmetic expressions, conditional branching
+2.  Loops, functions, the standard library, data structures
+3.  Basics of object-oriented programming, file I/O, data frames, statistical analyses with the pandas package
+4.  Data visualization with matplotlib, matrix computations with numpy 
+5.  Group presentations, best practices for software project management
+
+
+The course starts at the very basics and is explicitly intended for students who have no or only little programming experience. After finishing the course successfully, participants will be able to think computationally about data-related problems, and design and write Python programs for computational tasks.
+
+### Prerequisites
+The course requires no specific previous knowledge, in particular no prior programming skills. <br>
+
+Students need to bring their own laptop to do the exercises. Any operating system (Windows, Mac OSX, Linux) is fine, as long as new software can be installed on the machine. We assume that you have elemental computer skills such as browser usage, storing files, installing programs, etc.
+
+Lastly, students are expected to have [Anaconda](https://www.anaconda.com/), the software used in this course, installed on their computer. To find out how to do this, see the *How to prepare* page.
+
+
+### Credits & Certificate
+Course credits of 1.5 EC are offered to students who attend meetings every day, actively participate in the exercises and participate in the presentations of the group assignments on the final day of the course.<br>
+
+No graded activities are included in this course. Therefore, it is not possible to provide students with a transcript of grades. Students will obtain a certificate upon completion of this course.
+
+## Column 2
+
+### General daily schedule 
+
+| When?  |      | What?      |
+|:--------|:-------|:-------------|
+| 09:00 | 10:30  | Lecture 1 + Exercises |
+| 11:00 | 11:45  | Lecture 2 + Exercises |
+|       | [Lunch](https://www.uu.nl/en/educatorium) |            |
+| 13:30 | 15:00  | Group Assignment |
+| 15:00 | 17:00  | Lecture 3 + Exercises |
+
+Note that this schedule is a general outline. For the exact schedule and the topics of the meetings, see the following [document](Contents/S17_Day-to-day_2022.pdf). The specific schedules can also be found on the separate day-pages.
+
+### Lecture Hall locations
+| When?  | Where    |
+|:--------|:-------|
+| Tuesday | [Ruppert Blauw](https://goo.gl/maps/jG6Vzv5ugfCXvR8x8)  | 
+| Wednesday| [Koningsberger Cosmos](https://goo.gl/maps/ufn6aXVL9K48Gn7S6)  | 
+| Thursday | [Ruppert 040](https://goo.gl/maps/jG6Vzv5ugfCXvR8x8)  | 
+| Friday | [Koningsberger Cosmos](https://goo.gl/maps/ufn6aXVL9K48Gn7S6) |            
+
+
+# How to prepare
+
+## Column 1
+
+### **Preparing you and your machine for the course**
+Dear all, 
+
+This summer you will participate in the [**USS17: Programming with Python**](https://utrechtsummerschool.nl/courses/social-sciences/data-science-programming-with-python) course in Utrecht, the Netherlands. Please read this page carefully to make sure you are prepared well for the course!
+
+Firstly and most important, we would like you to install the software for this course on your laptop beforehand. The instructions can be found below, under *'Anaconda Setup'*, or can be found in this [document](Contents/preparation.pdf). Additionally, some extra contextual information on Python is given, and some optional exercises are provided on the right.
+
+We look forward to welcoming you all!
+
+*The Programming with Python Team*
+
+
+### **1. System requirements**
+
+Bring a laptop computer to the course and make sure that you have full write access and administrator rights to the machine. We will explore programming and compiling in this course. This means that you need full access to your machine. Some corporate laptops come with limited access for their users, we therefore advice you to bring a personal laptop computer, if you have one. 
+
+### **2. More information on Python**
+Python (yes, indeed named after the British comedy group [Monty Python](https://en.wikipedia.org/wiki/Monty_Python)) is one of the most popular programming languages today. It has been released for the first time already back in 1990, but gained extreme popularity only in the last years, hand in hand with the increasing importance of the world wide web, big data and data science.
+
+Although older versions (in particular the second generation) are still operational, we will use Python 3 in the course to make full use of the features of the latest generation. As of winter 2022, the latest stable release of Python has number 3.10.1.
+
+There is a lot of free literature about Python available that you can use for the course in addition to the lecture notes that we provide you with. Especially if you have difficulties understanding a particular concept, it is often a good idea to look at alternative explanations. What works good for the one, might just not be the best way to put it for the other. Here are some links to useful Python online books, but please feel free to check out also other sources of information:
+
+- [https://python.swaroopch.com](https://python.swaroopch.com) (“A Byte of Python”, especially for
+beginners)
+- [http://greenteapress.com/wp/think-python-2e/](http://greenteapress.com/wp/think-python-2e/) (“Think Python”, also targeted at beginners)
+- [https://docs.python.org/3/tutorial/index.html](https://docs.python.org/3/tutorial/index.html) (the official Python tutorial)
+
+
+### **3. Anaconda Setup**
+
+During the course we will work with the Anaconda Python Data Science Platform (official website:
+[https://www.anaconda.com/](https://www.anaconda.com/)). In particular we will use the Spyder IDE (Integrated Development Environment) and Jupyter notebooks. Anaconda is a free and open source distribution of Python and some other programming languages used in scientific applications. It runs on all major operating systems and provides a number of very useful tools for Python programming.
+
+To get Anaconda ready on your laptop, follow the next steps:
+
+1. Go to [https://docs.anaconda.com/anaconda/install/](https://docs.anaconda.com/anaconda/install/) and follow the installation instructions for your operating system.
+
+2. Go to [https://docs.anaconda.com/anaconda/user-guide/getting-started/#open-nav-lin](https://docs.anaconda.com/anaconda/user-guide/getting-started/#open-nav-lin) and follow the instructions how to start Spyder.
+
+If you managed to follow both steps, your laptop is all set!
+
+If you have problems with installing Anaconda, please get in touch with the course instructors as soon as possible.
+
+
+## Column 2
+
+### Optional Computational Thinking Exercises
+
+To get warmed for the summer school, here are some optional puzzles (inspired by and adapted from the [GI’s Informatik Biber](https://bwinf.de/biber)). These exercises require you to use different computational thinking skills. No programming experience needed, just read the instructions carefully and set your brain to work! :) <br>
+ 
+The 5 exercises can be found on page 2 of the following [document.](Contents/preparation.pdf)
+
+
+# Monday
+
+## Column 1
+
+### Monday's materials
+We adapt the course as we go. To ensure that you work with the latest iteration of the course materials, we advice all course participants to access the materials online.
+
+Exercises for during the lectures can be found in the corresponding Unit documents.
+
+- Introduction
+    - [Kick-off slides](Contents/Day 1/Kickoff Python Summer School 2021.pdf)
+- Units & Lectures
+    - [Unit 1.1 - Lecture 1 & 2](Contents/Day 1/Unit 1.1 Getting Started with Python - Jupyter Notebook.pdf)
+    - [Unit 1.2 - Lecture 3](Contents/Day 1/Unit 1.2 Conditional Branching - Jupyter Notebook.pdf)
+- Group Project documents
+    - [Work sheet day 1 (pdf)](Contents/Day 1/Project Worksheet 1.pdf)
+    - [Work sheet day 1 (word)](Contents/Day 1/Project Worksheet 1.odt)
+
+
+## Column 2
+
+### Schedule
+
+| When?  |      | What?      |
+|:--------|:-------|:-------------|
+| 09:00 | 10:30  | Lecture 1 - Unit 1.1: *Getting started with Python* |
+| 11:00 | 11:45  | Lecture 2 - Unit 1.1 *remainder* |
+|       | [Lunch](https://www.uu.nl/en/educatorium) |            |
+| 13:30 | 15:00  | Group Assignment |
+| 15:00 | 17:00  | Lecture 3 - Unit 1.2: *Conditional branching* |
+
+
+
+# Tuesday
+
+## Column 1
+
+### Tuesday's materials
+We adapt the course as we go. To ensure that you work with the latest iteration of the course materials, we advice all course participants to access the materials online.
+
+Exercises for during the lectures can be found in the corresponding Unit documents.
+
+- Units & Lectures
+    - [Unit 2.1 - Lecture 1](Contents/Day 2/Unit 2.1 Loops - Jupyter Notebook.pdf)
+    - [Unit 2.2 - Lecture 2](Contents/Day 2/Unit 2.2 Functions and Modules - Jupyter Notebook.pdf)
+    - [Unit 2.3 - Lecture 3](Contents/Day 2/Unit 2.3 Data Structures - Jupyter Notebook.pdf)
+- Group Project documents
+    - [Work sheet day 2 (pdf)](Contents/Day 2/Project Worksheet 2.pdf)
+    - [Work sheet day 2 (word)](Contents/Day 2/Project Worksheet 2.odt)
+
+
+## Column 2
+
+### Schedule
+
+| When?  |      | What?      |
+|:--------|:-------|:-------------|
+| 09:00 | 10:30  | Lecture 1 - Unit 2.1: *Loops* |
+| 11:00 | 11:45  | Lecture 2 - Unit 2.2 *Functions and modules* |
+|       | [Lunch](https://www.uu.nl/en/educatorium) |            |
+| 13:30 | 15:00  | Group Assignment |
+| 15:00 | 17:00  | Lecture 3 - Unit 2.3: *Data structures* |
+
+
+
+# Wednesday
+
+## Column 1
+
+### Wednesday's materials
+We adapt the course as we go. To ensure that you work with the latest iteration of the course materials, we advice all course participants to access the materials online.
+
+Exercises for during the lectures can be found in the corresponding Unit documents.
+
+- Units & Lectures
+    - [Unit 3.1 - Lecture 1](Contents/Day 3/Unit 3.1 fileManipulation.pdf)
+    - [Unit 3.2 - Lecture 2](Contents/Day 3/Unit 3.2 pandasBasics.pdf)
+    - [Unit 3.3 - Lecture 3](Contents/Day 3/Unit 3.3 pandasAdvanced.pdf)
+- Group Project documents
+    - [Work sheet day 3 (pdf)](Contents/Day 3/Project Worksheet 3.pdf)
+    - [Work sheet day 3 (word)](Contents/Day 3Project Worksheet 3.odt/)
+- Data files
+    - [daily_natural_gas.csv](Contents/Day 3/data/daily_natural_gas.csv)
+    - [greece-population-2021-06-09.csv](Contents/Day 3/data/greece-population-2021-06-09.csv)
+    - [IMDb_movies.csv](Contents/Day 3/data/IMDb_movies.csv)
+    - [Iris.csv](Contents/Day 3/data/Iris.csv)
+    - [netherlands-population-2021-06-09.csv](Contents/Day 3/data/netherlands-population-2021-06-09.csv)
+    - [netherlands-population-2021-06-09_missing.csv](Contents/Day 3/data/netherlands-population-2021-06-09_missing.csv)
+    - [supermarket_sales.csv](Contents/Day 3/data/supermarket_sales.csv)
+    - [winemag-data_first50k.csv](Contents/Day 3/data/winemag-data_first50k.csv)
+- Python files
+    - [3_1_TemplateFileManipulation.py](Contents/Day 3/3_1_TemplateFileManipulation.py)
+    - [3_2_TemplatePandasBasics.py](Contents/Day 3/3_2_TemplatePandasBasics.py)
+    - [3_3_TemplatePandasAdvanced.py](Contents/Day 3/3_3_TemplatePandasAdvanced.py)
+
+
+## Column 2
+
+### Schedule
+
+| When?  |      | What?      |
+|:--------|:-------|:-------------|
+| 09:00 | 10:30  | Lecture 1 - Unit 3.1: *File Input/Output* |
+| 11:00 | 11:45  | Lecture 2 - Unit 3.2 *Pandas & descriptive analysis* |
+|       | [Lunch](https://www.uu.nl/en/educatorium) |            |
+| 13:30 | 15:00  | Group Assignment |
+| 15:00 | 17:00  | Lecture 3 - Unit 3.3: *Joining dataframes & Correlations* |
+
+
+
+# Thursday
+
+## Column 1
+
+### Thursday's materials
+We adapt the course as we go. To ensure that you work with the latest iteration of the course materials, we advice all course participants to access the materials online.
+
+Exercises for during the lectures can be found in the corresponding Unit documents.
+
+- Units & Lectures
+    - [Unit 4.1 - Lecture 1](Contents/Day 4/Unit 4.1 Visualisation.pdf)
+    - [Unit 4.2 - Lecture 2](Contents/Day 4/Unit 4.2 Time Manipulation.pdf)
+    - [Unit 4.3 - Lecture 3](Contents/Day 4/Unit 4.3 Numpy.pdf)
+- Group Project documents
+    - [Work sheet day 4 (pdf)](Contents/Day 4/Project Worksheet 4.pdf)
+    - [Work sheet day 4 (word)](Contents/Day 4/Project Worksheet 4.odt)
+- Data files
+    - [daily_natural_gas.csv](Contents/Day 4/data/daily_natural_gas.csv)
+    - [greece-population-2021-06-09.csv](Contents/Day 4/data/greece-population-2021-06-09.csv)
+    - [IMDb_movies.csv](Contents/Day 4/data/IMDb_movies.csv)
+    - [Iris.csv](Contents/Day 4/data/Iris.csv)
+    - [netherlands-population-2021-06-09.csv](Contents/Day 4/data/netherlands-population-2021-06-09.csv)
+    - [netherlands-population-2021-06-09_missing.csv](Contents/Day 4/data/netherlands-population-2021-06-09_missing.csv)
+    - [supermarket_sales.csv](Contents/Day 4/data/supermarket_sales.csv)
+    - [winemag-data_first50k.csv](Contents/Day 4/data/winemag-data_first50k.csv)
+- Python files
+    - [4_1_TemplateVisualisation.py](Contents/Day 4/4_1_TemplateVisualisation.py)
+    - [4_2_TemplateTimeManipulation.py](Contents/Day 4/4_2_TemplateTimeManipulation.py)
+    - [4_3_TemplateNumpy.py](Contents/Day 4/4_3_TemplateNumpy.py)
+    
+
+## Column 2
+
+### Schedule
+
+| When?  |      | What?      |
+|:--------|:-------|:-------------|
+| 09:00 | 10:30  | Lecture 1 - Unit 4.1: *Data visualization with matplotlib* |
+| 11:00 | 11:45  | Lecture 2 - Unit 4.2 *Working with date and time* |
+|       | [Lunch](https://www.uu.nl/en/educatorium) |            |
+| 13:30 | 15:00  | Group Assignment |
+| 15:00 | 17:00  | Lecture 3 - Unit 4.3: *Matrix computation* |
+
+# Friday
+
+## Column 1
+
+### Friday's materials
+We adapt the course as we go. To ensure that you work with the latest iteration of the course materials, we advice all course participants to access the materials online.
+
+Exercises for during the lectures can be found in the corresponding Unit documents.
+
+
+
+## Column 2
+
+### Schedule
+
+| When?  |      | What?      |
+|:--------|:-------|:-------------|
+| 09:00 | 10:30  | Group assigment |
+| 11:00 | 11:45  | **Group project presentations** |
+|       | [Lunch](https://www.uu.nl/en/educatorium) |            |
+| 13:30 | 17:00 | Lectures on additional topics & Discussion |
+
+
+# Archive
+
+## Column 1
+
+### What to do after the course
+Blanc
+
+
+## Column 2
+
+### For fun
+Blanc
