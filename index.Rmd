@@ -13,15 +13,15 @@ This dashboard covers the course materials for the course [**S17 - Data Science:
 
 ---
 
-Course leader: [dr. Anastasia Giachanou](http://giachanou.com/) <br><br>
+Course coordinator: [Anastasia Giachanou](http://giachanou.com/) <br><br>
 Instructors: 
 
- - [dr. Anastasia Giachanou](http://giachanou.com/)
- - [dr. Anna-Lena Lamprecht](https://www.uu.nl/staff/ALLamprecht)
+ - [Anastasia Giachanou](http://giachanou.com/)
+ - [Anna-Lena Lamprecht](https://www.uu.nl/staff/ALLamprecht)
 
 <br>
 Study load: 1.5 ECTS <br>
-Location of Start: [Koningsberger building - Pangea hall](https://www.uu.nl/en/victor-j-koningsberger-building)
+Location of Start: To be announced
 
 ---
 # Quick Overview
@@ -70,12 +70,7 @@ No graded activities are included in this course. Therefore, it is not possible 
 Note that this schedule is a general outline. For the exact schedule and the topics of the meetings, see the following [document](Contents/S17_Day-to-day_2022.pdf). The specific schedules can also be found on the separate day-pages.
 
 ### Lecture Hall locations
-| When?  | Where    |
-|:--------|:-------|
-| Tuesday | [Ruppert Blauw](https://goo.gl/maps/jG6Vzv5ugfCXvR8x8)  | 
-| Wednesday| [Koningsberger Cosmos](https://goo.gl/maps/ufn6aXVL9K48Gn7S6)  | 
-| Thursday | [Ruppert 040](https://goo.gl/maps/jG6Vzv5ugfCXvR8x8)  | 
-| Friday | [Koningsberger Cosmos](https://goo.gl/maps/ufn6aXVL9K48Gn7S6) |            
+The locations of the lectures will be announced here, when they are known.             
 
 
 # How to prepare
@@ -133,7 +128,7 @@ If you have problems with installing Anaconda, please get in touch with the cour
 
 To get warmed for the summer school, here are some optional puzzles (inspired by and adapted from the [GI’s Informatik Biber](https://bwinf.de/biber)). These exercises require you to use different computational thinking skills. No programming experience needed, just read the instructions carefully and set your brain to work! :) <br>
  
-The 5 exercises can be found on page 2 of the following [document.](Contents/preparation.pdf)
+The 5 exercises can be found on page 2 of the following [document.](Contents/preparation.pdf)<br> The solutions to these exercises will be discussed during the first meeting.
 
 
 # Monday
@@ -316,11 +311,6 @@ Exercises for during the lectures can be found in the corresponding Unit documen
 
 ## Column 1
 
-### What to do after the course
-Blanc
+### Archive
+Here, links to all used materials will be placed.
 
-
-## Column 2
-
-### For fun
-Blanc
